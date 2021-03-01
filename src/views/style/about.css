@@ -1,0 +1,40 @@
+/*mobile*/
+
+@media only screen and (max-width: 750px) {
+    .main-about {
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding-top: 30px;
+    }
+    .main-text {
+        font-family: Circular;
+        font-size: 15px;
+        color: rgb(67, 67, 67);
+    }
+    .main-text-bold {
+        font-size: bold;
+    }
+}
+
+
+/*desktop*/
+
+@media only screen and (min-width: 750px) {
+    .main-about {
+        display: grid;
+        grid-template-columns: 39% 60%;
+        grid-column-gap: 1%;
+        width: 100%;
+        height: 100%;
+        padding-top: 30px;
+    }
+    .main-text {
+        font-family: Circular;
+        font-size: 15px;
+        color: rgb(67, 67, 67);
+    }
+    .main-text-bold {
+        font-size: bold;
+    }
+}

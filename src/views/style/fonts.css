@@ -1,0 +1,9 @@
+@font-face {
+    src: url("../../../media/fonts/crickhollow/Crickhollow\ Demo.ttf");
+    font-family: crick;
+}
+
+@font-face {
+    font-family: Circular;
+    src: url("../../../media/fonts/font/CircularStd-Black.ttf");
+}
